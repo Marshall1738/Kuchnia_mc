@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadyMealFragment"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutaj wybierasz gotowe dania" />
+
+    <RadioGroup
+        android:id="@+id/radioGrupaDanieGotowe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/golabki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gołąbki (2 sztuki) - 20zł"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/schabowy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kotlet schabowy z ziemniakami i mizerią - 40zł"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/rosol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rosół - 15zł"
+            android:textColor="@color/black"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/cofajButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rozmyśliłem się"
+        android:backgroundTint="#bf3522"/>
+
+<Button
+    android:id="@+id/doPodsumowania"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Przejdź do podsumowania"
+    android:backgroundTint="#26bf38"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="180sp"
+            android:layout_height="200sp"
+            android:src="@drawable/golabki"/>
+
+        <ImageView
+            android:layout_width="180sp"
+            android:layout_height="200sp"
+            android:src="@drawable/schabowy"/>
+
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:src="@drawable/rosol"/>
+
+    </LinearLayout>
+
+</LinearLayout>

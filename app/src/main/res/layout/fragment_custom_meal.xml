@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomMealFragment"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FULL ZESTAW KOSZTUJE 50zł."
+                android:textSize="20dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ziemniaki gotowane czy pieczone?"
+                android:textColor="@color/black"/>
+
+            <RadioGroup
+                android:id="@+id/radioGrupaZiemniaki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/gotowane"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gotowane"/>
+
+                <RadioButton
+                    android:id="@+id/pieczone"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pieczone"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Główne danie?"
+                android:textColor="@color/black"/>
+
+
+
+            <RadioGroup
+                android:id="@+id/radioGrupaDanie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/kotlet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlet"
+                    android:textColor="@color/black"/>
+
+                    <RadioButton
+                        android:id="@+id/bigos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bigos"
+                        android:textColor="@color/black"/>
+
+
+                    <RadioButton
+                        android:id="@+id/makaronCarbonara"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Carbonara"
+                        android:layout_row="1"
+                        android:textColor="@color/black"/>
+
+                    <RadioButton
+                        android:id="@+id/ryba"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Filet ze stopy"
+                        android:layout_row="1"
+                        android:textColor="@color/black"/>
+
+                </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wybierz surówke"
+                android:textColor="@color/black"/>
+
+            <RadioGroup
+                android:id="@+id/radioGrupaSurowka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/kapusta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kapusta kiszona"
+                    android:textColor="@color/black"/>
+
+                <RadioButton
+                    android:id="@+id/grecka"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sałatka grecka"
+                    android:textColor="@color/black"/>
+
+                <RadioButton
+                    android:id="@+id/pomidor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pomidorowy przcier"
+                    android:textColor="@color/black"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wybierz napój"
+                android:textColor="@color/black"/>
+
+            <RadioGroup
+                android:id="@+id/radioGrupaPicie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textColor="@color/black">
+
+                <RadioButton
+                    android:id="@+id/cola"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coca Cola"
+                    android:textColor="@color/black"/>
+
+                <RadioButton
+                    android:id="@+id/pepsi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pepsi"
+                    android:textColor="@color/black"/>
+
+                <RadioButton
+                    android:id="@+id/woda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Woda"
+                    android:textColor="@color/black"/>
+
+                <RadioButton
+                    android:id="@+id/wodaZCytryna"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cytrynowka"
+                    android:textColor="@color/black"/>
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/doPodsumowania"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Finish"
+                android:backgroundTint="#26bf38"/>
+
+            <Button
+                android:id="@+id/cofajButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pass"
+                android:backgroundTint="#bf3522"/>
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

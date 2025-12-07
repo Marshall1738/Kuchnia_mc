@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.polskagurom.StartFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_menuChoiceFragment"
+            app:destination="@id/menuChoiceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuChoiceFragment"
+        android:name="com.example.polskagurom.MenuChoiceFragment"
+        android:label="Menu"
+        tools:layout="@layout/fragment_menu_choice" >
+        <action
+            android:id="@+id/action_menuChoiceFragment_to_readyMealFragment"
+            app:destination="@id/readyMealFragment" />
+        <action
+            android:id="@+id/action_menuChoiceFragment_to_customMealFragment"
+            app:destination="@id/customMealFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/readyMealFragment"
+        android:name="com.example.polskagurom.ReadyMealFragment"
+        android:label="fragment_ready_meal"
+        tools:layout="@layout/fragment_ready_meal" >
+        <action
+            android:id="@+id/action_readyMealFragment_to_menuChoiceFragment"
+            app:destination="@id/menuChoiceFragment" />
+        <action
+            android:id="@+id/action_readyMealFragment_to_summaryFragment"
+            app:destination="@id/summaryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/customMealFragment"
+        android:name="com.example.polskagurom.CustomMealFragment"
+        android:label="menuCustomFragment"
+        tools:layout="@layout/fragment_custom_meal" >
+        <action
+            android:id="@+id/action_customMealFragment_to_menuChoiceFragment"
+            app:destination="@id/menuChoiceFragment" />
+        <action
+            android:id="@+id/action_customMealFragment_to_summaryFragment"
+            app:destination="@id/summaryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/summaryFragment"
+        android:name="com.example.polskagurom.SummaryFragment"
+        android:label="Summary"
+        tools:layout="@layout/fragment_summary" >
+        <action
+            android:id="@+id/action_summaryFragment_to_menuChoiceFragment"
+            app:destination="@id/menuChoiceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tottalBarFragment"
+        android:name="com.example.polskagurom.TottalBarFragment"
+        android:label="fragment_tottal_bar"
+        tools:layout="@layout/fragment_tottal_bar" />
+</navigation>

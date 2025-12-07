@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Podusmowanie zamówienia"
+        android:text="Zamówienie"
         android:textSize="20sp"
         android:layout_marginTop="60sp"
         android:textColor="@color/black"/>
@@ -22,14 +22,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kwota do zapłaty: "
+            android:text="Siano za szame: "
             android:textSize="15sp"/>
 
         <TextView
             android:id="@+id/kwota"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="tu bedzie binding do kwoty zamowienia"
+            android:text="kwota"
             android:textSize="15sp"/>
 
         <TextView
@@ -43,6 +43,6 @@
         android:id="@+id/guzikDoStartu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Powrót do startu"/>
+        android:text="Lota do startu"/>
 
 </LinearLayout>

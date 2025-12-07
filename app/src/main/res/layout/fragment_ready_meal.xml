@@ -24,21 +24,21 @@
             android:id="@+id/golabki"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gołąbki (2 sztuki) - 20zł"
+            android:text="Gołąbki- 20zł"
             android:textColor="@color/black"/>
 
         <RadioButton
             android:id="@+id/schabowy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kotlet schabowy z ziemniakami i mizerią - 40zł"
+            android:text="Kotlet schabowy z ziemniakami i grzybem - 40zł"
             android:textColor="@color/black"/>
 
         <RadioButton
             android:id="@+id/rosol"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rosół - 15zł"
+            android:text="Rosołek na zeberku - 15zł"
             android:textColor="@color/black"/>
     </RadioGroup>
 
@@ -46,14 +46,14 @@
         android:id="@+id/cofajButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Rozmyśliłem się"
+        android:text="PASS"
         android:backgroundTint="#bf3522"/>
 
 <Button
     android:id="@+id/doPodsumowania"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Przejdź do podsumowania"
+    android:text="DO FINISHU"
     android:backgroundTint="#26bf38"/>
 
 

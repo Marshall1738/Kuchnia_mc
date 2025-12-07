@@ -66,17 +66,17 @@
         <ImageView
             android:layout_width="180sp"
             android:layout_height="200sp"
-            android:src="@drawable/golabki"/>
+            android:src="@drawable/golabki1"/>
 
         <ImageView
             android:layout_width="180sp"
             android:layout_height="200sp"
-            android:src="@drawable/schabowy"/>
+            android:src="@drawable/schabowy1"/>
 
         <ImageView
             android:layout_width="200sp"
             android:layout_height="200sp"
-            android:src="@drawable/rosol"/>
+            android:src="@drawable/rosol1"/>
 
     </LinearLayout>
 

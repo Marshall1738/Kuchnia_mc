@@ -3,10 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ReadyMealFragment"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:gravity="center_horizontal">
-
+    tools:context=".ReadyMealFragment">
 
 
     <!-- TODO: Update blank fragment layout -->
@@ -24,59 +23,59 @@
             android:id="@+id/golabki"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gołąbki- 20zł"
-            android:textColor="@color/black"/>
+            android:text="GOŁĄBKI- 20zł"
+            android:textColor="@color/black" />
 
         <RadioButton
             android:id="@+id/schabowy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kotlet schabowy z ziemniakami i grzybem - 40zł"
-            android:textColor="@color/black"/>
+            android:text="KOTLET SCHABOWY Z GRZYBEM - 40zł"
+            android:textColor="@color/black" />
 
         <RadioButton
-            android:id="@+id/rosol"
+            android:id="@+id/grzybowa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rosołek na zeberku - 15zł"
-            android:textColor="@color/black"/>
+            android:text="GRZYBOWA ZUPKA - 15zł"
+            android:textColor="@color/black" />
     </RadioGroup>
 
     <Button
         android:id="@+id/cofajButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PASS"
-        android:backgroundTint="#C47BE4"/>
+        android:backgroundTint="#C47BE4"
+        android:text="PASS" />
 
-<Button
-    android:id="@+id/doPodsumowania"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="DO FINISHU"
-    android:backgroundTint="#301CA0"/>
+    <Button
+        android:id="@+id/doPodsumowania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#301CA0"
+        android:text="DO FINISHU" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
 
         <ImageView
             android:layout_width="180sp"
             android:layout_height="200sp"
-            android:src="@drawable/golabki1"/>
+            android:src="@drawable/golabki1" />
 
         <ImageView
             android:layout_width="180sp"
             android:layout_height="200sp"
-            android:src="@drawable/schabowy1"/>
+            android:src="@drawable/schabowy1" />
 
         <ImageView
             android:layout_width="200sp"
             android:layout_height="200sp"
-            android:src="@drawable/rosol1"/>
+            android:src="@drawable/rosol1" />
 
     </LinearLayout>
 

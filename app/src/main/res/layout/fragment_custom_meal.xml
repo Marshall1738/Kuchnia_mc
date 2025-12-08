@@ -26,7 +26,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ziemniaki gotowane czy pieczone?"
+                android:text="FRYTKI CZY ZIEMNIAKI?"
                 android:textColor="@color/black"/>
 
             <RadioGroup
@@ -36,24 +36,24 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/gotowane"
+                    android:id="@+id/FRYTKI"
                     android:textColor="@color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Gotowane"/>
+                    android:text="FRYTKI"/>
 
                 <RadioButton
-                    android:id="@+id/pieczone"
+                    android:id="@+id/ZIEMNIAKI"
                     android:textColor="@color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pieczone"/>
+                    android:text="ZIEMNIAKI"/>
             </RadioGroup>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Główne danie?"
+                android:text="GŁÓWNA SZAMA?"
                 android:textColor="@color/black"/>
 
 
@@ -68,22 +68,22 @@
                     android:id="@+id/kotlet"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Kotlet"
+                    android:text="KOTLET"
                     android:textColor="@color/black"/>
 
                     <RadioButton
-                        android:id="@+id/bigos"
+                        android:id="@+id/stopykota"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Bigos"
+                        android:text="STOPY KOTA"
                         android:textColor="@color/black"/>
 
 
                     <RadioButton
-                        android:id="@+id/makaronCarbonara"
+                        android:id="@+id/carbonara"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Carbonara"
+                        android:text="CABONARA"
                         android:layout_row="1"
                         android:textColor="@color/black"/>
 
@@ -91,7 +91,7 @@
                         android:id="@+id/ryba"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Filet ze stopy"
+                        android:text="FILET"
                         android:layout_row="1"
                         android:textColor="@color/black"/>
 
@@ -102,7 +102,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Wybierz surówke"
+                android:text="WYBIERZ TRAWE DO JEDZENIA"
                 android:textColor="@color/black"/>
 
             <RadioGroup
@@ -115,28 +115,22 @@
                     android:id="@+id/kapusta"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Kapusta kiszona"
+                    android:text="KAPUSTKA KISZONA"
                     android:textColor="@color/black"/>
 
                 <RadioButton
-                    android:id="@+id/grecka"
+                    android:id="@+id/grzyb"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sałatka grecka"
+                    android:text="GRZYBOWA SAŁATKA"
                     android:textColor="@color/black"/>
 
-                <RadioButton
-                    android:id="@+id/pomidor"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Pomidorowy przcier"
-                    android:textColor="@color/black"/>
             </RadioGroup>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Wybierz napój"
+                android:text="WYBIERZ PICIU"
                 android:textColor="@color/black"/>
 
             <RadioGroup
@@ -150,28 +144,28 @@
                     android:id="@+id/cola"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Coca Cola"
+                    android:text="COCA COLA"
                     android:textColor="@color/black"/>
 
                 <RadioButton
                     android:id="@+id/pepsi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pepsi"
+                    android:text="PEPSI"
                     android:textColor="@color/black"/>
 
                 <RadioButton
                     android:id="@+id/woda"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Woda"
+                    android:text="WÓDA"
                     android:textColor="@color/black"/>
 
                 <RadioButton
                     android:id="@+id/wodaZCytryna"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="cytrynowka"
+                    android:text="CYTRYNÓWKA"
                     android:textColor="@color/black"/>
             </RadioGroup>
 

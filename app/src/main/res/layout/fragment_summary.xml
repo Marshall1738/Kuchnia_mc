@@ -43,6 +43,7 @@
         android:id="@+id/guzikDoStartu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lota do startu"/>
+        android:text="Lota do startu"
+        android:backgroundTint="#C47BE4"/>
 
 </LinearLayout>

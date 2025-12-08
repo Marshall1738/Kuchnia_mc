@@ -186,14 +186,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Finish"
-                android:backgroundTint="#26bf38"/>
+                android:backgroundTint="#301CA0"/>
 
             <Button
                 android:id="@+id/cofajButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Pass"
-                android:backgroundTint="#bf3522"/>
+                android:backgroundTint="#C47BE4"/>
 
         </LinearLayout>
         </LinearLayout>

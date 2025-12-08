@@ -47,14 +47,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="PASS"
-        android:backgroundTint="#bf3522"/>
+        android:backgroundTint="#C47BE4"/>
 
 <Button
     android:id="@+id/doPodsumowania"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="DO FINISHU"
-    android:backgroundTint="#26bf38"/>
+    android:backgroundTint="#301CA0"/>
 
 
     <LinearLayout

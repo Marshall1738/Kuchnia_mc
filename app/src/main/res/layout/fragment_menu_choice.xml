@@ -25,13 +25,15 @@
             android:id="@+id/customMealButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SWOJE"/>
+            android:text="SWOJE"
+            android:backgroundTint="#301CA0"/>
 
         <Button
             android:id="@+id/readyMealButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="GOTOWIEC"/>
+            android:text="GOTOWIEC"
+            android:backgroundTint="#C47BE4"/>
 
     </LinearLayout>
 
